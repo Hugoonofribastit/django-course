@@ -6,7 +6,13 @@
     <title>Django!</title>
 </head>
 <body>
+
+    {% extends 'layouts/base.html' %}
+
+    {% block content %}
     <h1>{{ title }}</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eos, officia ipsum, molestias nemo saepe deleniti dolorum adipisci modi culpa quia quidem atque? Minus veritatis incidunt modi rerum distinctio reiciendis.</p>
+    {% endblock %}
+
 </body>
 </html>

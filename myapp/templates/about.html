@@ -6,8 +6,14 @@
     <title>Project About</title>
 </head>
 <body>
+
+    {% extends 'layouts/base.html' %}
+
+    {% block content %}
     <h1>About</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eveniet iste numquam ducimus hic nesciunt exercitationem libero explicabo accusantium reiciendis, voluptatibus aliquam quibusdam harum necessitatibus illo molestiae. Eveniet minima dolorem esse in commodi illum modi inventore, provident obcaecati quisquam expedita quaerat earum corporis ullam ipsa! Perferendis soluta sapiente eligendi sunt!</p>
     <p>Web created By {{ username }}</p>
+
+    {% endblock %}
 </body>
 </html>

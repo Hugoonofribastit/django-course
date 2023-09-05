@@ -6,11 +6,19 @@
     <title>App Projects</title>
 </head>
 <body>
-    <h1>Projects</h1>
+{% extends 'layouts/base.html' %}
+
+
+{% block content %}
+<h1>Projects</h1>
     {% for project in projects %}
     <div>
         <h2>{{project.name}}</h2>
     </div>
     {% endfor %}
+    
+{% endblock %}
+
+    
 </body>
 </html>
