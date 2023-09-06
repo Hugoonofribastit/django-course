@@ -36,7 +36,8 @@ a{
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    
+    align-items: flex-start; 
+    padding: 20px 0;   
 }
 
 #id_description{
