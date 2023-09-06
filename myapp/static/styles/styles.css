@@ -1,0 +1,50 @@
+body{
+    background-color: #202020;
+    color: whitesmoke;
+
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.h1-index{
+    max-width: 1200px;
+    align-self:center ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+.navbar{
+    background-color: #404040;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-nav{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-main{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+
+#id_description{
+    display: block;
+    
+}
+
+.img-index{
+    align-self: center;
+    margin-bottom: 25px;
+}

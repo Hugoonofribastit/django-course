@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Django!</title>
-</head>
-<body>
+
 
     {% extends 'layouts/base.html' %}
-
+    {% load static %}
     {% block content %}
-    <h1>{{ title }}</h1>
+   <div class="h1-index"> <h1>{{ title }}</h1></div>
+
+    <img class="img-index" src="{% static 'mark.png' %}" alt="" width="150">
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eos, officia ipsum, molestias nemo saepe deleniti dolorum adipisci modi culpa quia quidem atque? Minus veritatis incidunt modi rerum distinctio reiciendis.</p>
     {% endblock %}
 
-</body>
-</html>
