@@ -4,7 +4,7 @@ body{
 
 }
 
-a{
+.navbar > a{
     text-decoration: none;
     color: whitesmoke;
 }
@@ -29,6 +29,7 @@ a{
 .container-nav{
     max-width: 1200px;
     margin: auto;
+    padding: 10px 5px;
 }
 
 .container-main{
@@ -40,12 +41,34 @@ a{
     padding: 20px 0;   
 }
 
-#id_description{
+.input{
     display: block;
-    
+    padding: 10px;
+    text-align: center;
+    background-color: wheat;
 }
+
+
 
 .img-index{
     align-self: center;
     margin-bottom: 25px;
+}
+
+.card{
+    background-color: #404040;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #202020;
+    width: 100%;
+}
+
+.card a{
+    text-decoration: none;
+    color: #e8e1e1;
+}
+
+.card a :hover{
+    
+color: aquamarine;
 }
